@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bistro Meluzyna – Rosnowo | Domowe smaki, wyjątkowa atmosfera</title>
+  <meta name="description" content="Bistro Meluzyna w Rosnowie – świeże składniki, duże porcje, przytulna atmosfera. Sprawdź menu i odwiedź nas już dziś!" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ───────── NAVBAR ───────── -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">
+        <span class="logo-script">Bistro</span>
+        <span class="logo-main">Meluzyna</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#why" class="nav-link">Dlaczego my</a></li>
+        <li><a href="#dishes" class="nav-link">Dania</a></li>
+        <li><a href="#menu" class="nav-link">Menu</a></li>
+        <li><a href="#opinions" class="nav-link">Opinie</a></li>
+        <li><a href="#gallery" class="nav-link">Galeria</a></li>
+        <li><a href="#contact" class="nav-link">Kontakt</a></li>
+        <li>
+          <a href="tel:+48123456789" class="nav-cta">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.81 19.79 19.79 0 01.02 2.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            Zadzwoń
+          </a>
+        </li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ───────── HERO ───────── -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=1920&q=80&auto=format&fit=crop" alt="Eleganckie dania w Bistro Meluzyna" class="hero-img" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content fade-in">
+      <p class="hero-pretitle">Rosnowo, Polska</p>
+      <h1 class="hero-title">Wyjątkowe smaki<br /><em>w Bistro Meluzyna</em></h1>
+      <p class="hero-sub">Domowe jedzenie z pasją. Świeże składniki, duże porcje<br />i atmosfera, do której chce się wracać.</p>
+      <div class="hero-ctas">
+        <a href="#menu" class="btn btn-gold">Zobacz menu</a>
+        <a href="tel:+48123456789" class="btn btn-outline">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.81 19.79 19.79 0 01.02 2.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          Zadzwoń teraz
+        </a>
+      </div>
+      <div class="hero-badge">
+        <div class="stars-inline">★★★★½</div>
+        <span>4.5 / 5 · 95 opinii Google</span>
+      </div>
+    </div>
+    <a href="#why" class="hero-scroll" aria-label="Przewiń w dół">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 5v14M5 12l7 7 7-7"/></svg>
+    </a>
+  </section>
+
+  <!-- ───────── DLACZEGO WARTO ───────── -->
+  <section class="why" id="why">
+    <div class="container">
+      <div class="section-label fade-up">Dlaczego my?</div>
+      <h2 class="section-title fade-up">Powody, dla których klienci<br /><em>wracają do nas co tydzień</em></h2>
+      <div class="why-grid">
+        <div class="why-card fade-up">
+          <div class="why-icon">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M24 4C13 4 4 13 4 24s9 20 20 20 20-9 20-20S35 4 24 4z"/><path d="M24 14v10l6 6"/><path d="M16 24a8 8 0 0116 0"/></svg>
+          </div>
+          <h3>Świeże składniki</h3>
+          <p>Każdego dnia korzystamy z lokalnych, sezonowych produktów. Bez mrożonek, bez półproduktów – same naturalne smaki.</p>
+        </div>
+        <div class="why-card fade-up" style="animation-delay:.1s">
+          <div class="why-icon">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 36h32M12 20h24l4 16H8L12 20zM24 20V10M17 14l7-4 7 4"/></svg>
+          </div>
+          <h3>Duże porcje</h3>
+          <p>U nas nikt nie wychodzi głodny. Porcje serwujemy z myślą o prawdziwym nasyceniu, nie tylko o ładnym zdjęciu.</p>
+        </div>
+        <div class="why-card fade-up" style="animation-delay:.2s">
+          <div class="why-icon">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M10 38V18l14-10 14 10v20H10z"/><path d="M18 38V28h12v10"/><rect x="20" y="18" width="8" height="8" rx="1"/></svg>
+          </div>
+          <h3>Przytulna atmosfera</h3>
+          <p>Klimat jak u babci – ciepło, spokojnie, domowo. Idealne miejsce na rodzinny obiad lub spokojny lunch z przyjaciółmi.</p>
+        </div>
+        <div class="why-card fade-up" style="animation-delay:.3s">
+          <div class="why-icon">
+            <svg viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="24,6 29,18 43,18 32,27 36,41 24,33 12,41 16,27 5,18 19,18"/></svg>
+          </div>
+          <h3>Wysokie oceny <span class="gold">4.5 ★</span></h3>
+          <p>Ponad 95 opinii w Google – klienci wracają i polecają nas znajomym. Sprawdź sam, co o nas mówią.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────── SEPARTOR DEKORACYJNY ───────── -->
+  <div class="ornament-divider">
+    <span></span><svg viewBox="0 0 60 20" fill="currentColor"><path d="M30 2 L34 10 L30 18 L26 10 Z"/><circle cx="10" cy="10" r="3"/><circle cx="50" cy="10" r="3"/></svg><span></span>
+  </div>
+
+  <!-- ───────── POPULARNE DANIA ───────── -->
+  <section class="dishes" id="dishes">
+    <div class="container">
+      <div class="section-label fade-up">Kuchnia</div>
+      <h2 class="section-title fade-up">Najpopularniejsze dania,<br /><em>które pokochali nasi goście</em></h2>
+      <div class="dishes-grid">
+
+        <article class="dish-card fade-up">
+          <div class="dish-img-wrap">
+            <img src="https://images.unsplash.com/photo-1604152135912-04a022e23696?w=700&q=80&auto=format&fit=crop" alt="Pierogi z twarogiem i pyrami" loading="lazy" />
+            <div class="dish-badge">Bestseller</div>
+          </div>
+          <div class="dish-body">
+            <h3>Pierogi z twarogiem i pyrami</h3>
+            <p>Klasyczne ruskie pierogi w wersji domowej – ciasto lepione ręcznie, farsz z sera i ziemniaków, podawane ze skwarkami i cebulką.</p>
+            <div class="dish-footer">
+              <span class="dish-price">od 26 zł</span>
+              <a href="#menu" class="dish-link">Zobacz menu →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card fade-up" style="animation-delay:.1s">
+          <div class="dish-img-wrap">
+            <img src="https://images.unsplash.com/photo-1535400255456-984e3d6044ad?w=700&q=80&auto=format&fit=crop" alt="Pierś pod pierzynką" loading="lazy" />
+            <div class="dish-badge dish-badge--new">Hit tygodnia</div>
+          </div>
+          <div class="dish-body">
+            <h3>Pierś pod pierzynką</h3>
+            <p>Soczysta pierś z kurczaka zapiekana pod warstwą pieczarek, żółtego sera i ziół. Podawana z ziemniakami i surówką.</p>
+            <div class="dish-footer">
+              <span class="dish-price">38 zł</span>
+              <a href="#menu" class="dish-link">Zobacz menu →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card fade-up" style="animation-delay:.2s">
+          <div class="dish-img-wrap">
+            <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?w=700&q=80&auto=format&fit=crop" alt="Tagliatelle z krewetkami" loading="lazy" />
+          </div>
+          <div class="dish-body">
+            <h3>Tagliatelle z krewetkami</h3>
+            <p>Delikatny makaron tagliatelle w kremowym sosie z czosnkiem, pomidorkami cherry i soczystymi krewetkami tygryskimi.</p>
+            <div class="dish-footer">
+              <span class="dish-price">49 zł</span>
+              <a href="#menu" class="dish-link">Zobacz menu →</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="dish-card fade-up" style="animation-delay:.3s">
+          <div class="dish-img-wrap">
+            <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?w=700&q=80&auto=format&fit=crop" alt="Sernik pistacjowy" loading="lazy" />
+            <div class="dish-badge dish-badge--dessert">Deser dnia</div>
+          </div>
+          <div class="dish-body">
+            <h3>Sernik pistacjowy</h3>
+            <p>Aksamitny sernik na kruchym spodzie z pistacjową masą i złocistą galaretką. Puszysty, delikatny i obłędnie kremowy.</p>
+            <div class="dish-footer">
+              <span class="dish-price">18 zł</span>
+              <a href="#menu" class="dish-link">Zobacz menu →</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────── MENU ───────── -->
+  <section class="menu-section" id="menu">
+    <div class="menu-bg-texture"></div>
+    <div class="container">
+      <div class="section-label fade-up" style="color:var(--gold)">Menu</div>
+      <h2 class="section-title fade-up" style="color:#fff">Pełne menu<br /><em>Bistro Meluzyna</em></h2>
+
+      <div class="menu-tabs fade-up">
+        <button class="menu-tab active" data-tab="obiady">Obiady</button>
+        <button class="menu-tab" data-tab="makarony">Makarony</button>
+        <button class="menu-tab" data-tab="saladay">Sałatki</button>
+        <button class="menu-tab" data-tab="zupy">Zupy</button>
+        <button class="menu-tab" data-tab="desery">Desery</button>
+        <button class="menu-tab" data-tab="napoje">Napoje</button>
+      </div>
+
+      <!-- OBIADY -->
+      <div class="menu-panel active" id="tab-obiady">
+        <div class="menu-list">
+          <div class="menu-item"><span class="mi-name">Pierogi z twarogiem i pyrami</span><span class="mi-desc">ręcznie lepione, ze skwarkami i cebulką</span><span class="mi-price">26 zł</span></div>
+          <div class="menu-item"><span class="mi-name">Pierś pod pierzynką</span><span class="mi-desc">kurczak, pieczarki, żółty ser, zioła, ziemniaki</span><span class="mi-price">38 zł</span></div>
+          <div class="menu-item"><span class="mi-name">Kotlet schabowy</span><span class="mi-desc">tradycyjny, z kapustą zasmażaną i ziemniakami</span><span class="mi-price">35 zł</span></div>
+          <div class="menu-item"><span class="mi-name">Gulasz wieprzowy</span><span class="mi-desc">duszony, z cebulą i papryką, kluski śląskie</span><span class="mi-price">32 zł</span></div>
+          <div class="menu-item"><span class="mi-name">Pstrąg z pieca</span><span class="mi-desc">z masłem cytrynowo-czosnkowym, kasza gryczana, warzywa</span><span class="mi-price">47 zł</span></div>
+          <div class="menu-item"><span class="mi-name">Gołąbki domowe</span><span class="mi-desc">z mięsem i ryżem, sos pomidorowy, ziemniaki</span><span class="mi-price">33 zł</span></div>
+        </div>
+      </div>
+
+      <!-- MAKARONY -->
+      <div class="menu-panel" id="tab-makarony">
+        <div class="menu-list">
+          <div class="menu-item"><span class="mi-name">Tagliatelle z krewetkami</span><span class="mi-desc">sos kremowy, czosnek, pomidorki cherry</span><span class="mi-price">49 zł</span></div>
+          <div class="menu-item"><span class="mi-name">Penne Bolognese</span><span class="mi-desc">sos mięsny gotowany 4 h, parmezan, bazylia</span><span class="mi-price">34 zł</span></div>
+          <div class="menu-item"><span class="mi-name">Spaghetti Carbonara</span><span class="mi-desc">boczek, żółtka, parmezan, pieprz</span><span class="mi-price">36 zł</span></div>
+          <div class="menu-item"><span class="mi-name">Rigatoni z łososiem</span><span class="mi-desc">sos śmietanowy, szpinak, kapary</span><span class="mi-price">44 zł</span></div>
+          <div class="menu-item"><span class="mi-name">Tagliatelle pesto</span><span class="mi-desc">bazyliowe pesto, rukola, parmezan, orzechy</span><span class="mi-price">32 zł</span></div>
+        </div>
+      </div>
+
+      <!-- SAŁATKI -->
+      <div class="menu-panel" id="tab-saladay">
+        <div class="menu-list">
+          <div class="menu-item"><span class="mi-name">Sałatka grecka</span><span class="mi-desc">feta, oliwki, ogórek, pomidor, czerwona cebula</span><span class="mi-price">24 zł</span></div>
+          <div class="menu-item"><span class="mi-name">Caesar z kurczakiem</span><span class="mi-desc">grillowana pierś, grzanki, sos caesar, parmezan</span><span class="mi-price">32 zł</span></div>
+          <div class="menu-item"><span class="mi-name">Sałatka z kozim serem</span><span class="mi-desc">roszponka, gruszka, orzechy, miód, żurawina</span><span class="mi-price">29 zł</span></div>
+          <div class="menu-item"><span class="mi-name">Mix sałat z łososiem</span><span class="mi-desc">wędzony łosoś, awokado, kapary, sos cytrynowy</span><span class="mi-price">36 zł</span></div>
+        </div>
+      </div>
+
+      <!-- ZUPY -->
+      <div class="menu-panel" id="tab-zupy">
+        <div class="menu-list">
+          <div class="menu-item"><span class="mi-name">Żurek staropolski</span><span class="mi-desc">biała kiełbasa, jajko, chrzan, w chlebku</span><span class="mi-price">18 zł</span></div>
+          <div class="menu-item"><span class="mi-name">Rosół domowy</span><span class="mi-desc">gotowany 5 h, z makaronem, natką pietruszki</span><span class="mi-price">16 zł</span></div>
+          <div class="menu-item"><span class="mi-name">Krem z dyni</span><span class="mi-desc">z imbirem i kurkumą, pestki dyni, śmietanka</span><span class="mi-price">19 zł</span></div>
+          <div class="menu-item"><span class="mi-name">Barszcz czerwony</span><span class="mi-desc">z uszkami z grzybami, podawany w filiżance</span><span class="mi-price">15 zł</span></div>
+        </div>
+      </div>
+
+      <!-- DESERY -->
+      <div class="menu-panel" id="tab-desery">
+        <div class="menu-list">
+          <div class="menu-item"><span class="mi-name">Sernik pistacjowy</span><span class="mi-desc">aksamitny, z galaretką, własna receptura</span><span class="mi-price">18 zł</span></div>
+          <div class="menu-item"><span class="mi-name">Szarlotka z lodami</span><span class="mi-desc">ciepła, z cynamonem, lody waniliowe</span><span class="mi-price">17 zł</span></div>
+          <div class="menu-item"><span class="mi-name">Tiramisu</span><span class="mi-desc">klasyczne, z espresso i kakao</span><span class="mi-price">19 zł</span></div>
+          <div class="menu-item"><span class="mi-name">Crème brûlée</span><span class="mi-desc">waniliowy, z karmelizowaną skórką</span><span class="mi-price">21 zł</span></div>
+          <div class="menu-item"><span class="mi-name">Naleśniki z serem</span><span class="mi-desc">ze śmietaną i konfiturą z malin</span><span class="mi-price">22 zł</span></div>
+        </div>
+      </div>
+
+      <!-- NAPOJE -->
+      <div class="menu-panel" id="tab-napoje">
+        <div class="menu-list">
+          <div class="menu-item"><span class="mi-name">Woda mineralna</span><span class="mi-desc">gazowana / niegazowana, 0.5 l</span><span class="mi-price">6 zł</span></div>
+          <div class="menu-item"><span class="mi-name">Sok świeżo wyciskany</span><span class="mi-desc">pomarańcza, jabłko lub marchewka</span><span class="mi-price">12 zł</span></div>
+          <div class="menu-item"><span class="mi-name">Lemoniada domowa</span><span class="mi-desc">cytryna, mięta, imbir, miód</span><span class="mi-price">14 zł</span></div>
+          <div class="menu-item"><span class="mi-name">Kawa espresso</span><span class="mi-desc">ziarnista, mielona na miejscu</span><span class="mi-price">9 zł</span></div>
+          <div class="menu-item"><span class="mi-name">Kawa z mlekiem</span><span class="mi-desc">cappuccino / latte / flat white</span><span class="mi-price">13 zł</span></div>
+          <div class="menu-item"><span class="mi-name">Herbata</span><span class="mi-desc">wybór herbat liściastych, czajniczek</span><span class="mi-price">10 zł</span></div>
+        </div>
+      </div>
+
+      <p class="menu-note fade-up">* Menu może ulec zmianie w zależności od dostępności sezonowych składników. Możemy dostosować dania do alergii i nietolerancji – zapytaj obsługę.</p>
+    </div>
+  </section>
+
+  <!-- ───────── OPINIE ───────── -->
+  <section class="opinions" id="opinions">
+    <div class="container">
+      <div class="section-label fade-up">Opinie gości</div>
+      <h2 class="section-title fade-up">Co mówią nasi klienci?<br /><em>Sprawdź sam</em></h2>
+      <div class="rating-overview fade-up">
+        <div class="rating-big">4.5</div>
+        <div class="rating-meta">
+          <div class="stars">★★★★<span class="star-half">★</span></div>
+          <p>Średnia z <strong>95 opinii</strong> w Google</p>
+        </div>
+      </div>
+      <div class="opinions-grid">
+        <article class="opinion-card fade-up">
+          <div class="opinion-stars">★★★★★</div>
+          <p class="opinion-text">„Najlepsze pierogi, jakie jadłam poza domem rodzinnym. Atmosfera cudowna, obsługa uprzejma, ceny bardzo przystępne. Na pewno wrócimy!"</p>
+          <div class="opinion-author">
+            <div class="opinion-avatar">M</div>
+            <div>
+              <strong>Marta K.</strong>
+              <span>Koszalin · Google Maps</span>
+            </div>
+          </div>
+        </article>
+        <article class="opinion-card fade-up" style="animation-delay:.1s">
+          <div class="opinion-stars">★★★★★</div>
+          <p class="opinion-text">„Gołąbki jak u mamy – mięciutkie, w świetnym sosie. Byliśmy z rodziną, wszyscy zachwyceni. Porcje ogromne, a ceny nie uderzają po kieszeni."</p>
+          <div class="opinion-author">
+            <div class="opinion-avatar" style="background:var(--bordeaux)">P</div>
+            <div>
+              <strong>Piotr W.</strong>
+              <span>Szczecinek · Google Maps</span>
+            </div>
+          </div>
+        </article>
+        <article class="opinion-card fade-up" style="animation-delay:.2s">
+          <div class="opinion-stars">★★★★½</div>
+          <p class="opinion-text">„Tagliatelle z krewetkami – przepyszne! Było tak smaczne, że już w trakcie jedzenia planowałam kolejną wizytę. Polecam w 100%."</p>
+          <div class="opinion-author">
+            <div class="opinion-avatar" style="background:#5a7a4a">A</div>
+            <div>
+              <strong>Anna R.</strong>
+              <span>Białogard · Google Maps</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────── GALERIA ───────── -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-label fade-up">Galeria</div>
+      <h2 class="section-title fade-up">Zajrzyj do środka<br /><em>i poczuj klimat</em></h2>
+    </div>
+    <div class="gallery-grid fade-up">
+      <div class="gallery-item gi-tall">
+        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=800&q=80&auto=format&fit=crop" alt="Wnętrze restauracji" loading="lazy" />
+        <div class="gallery-overlay"><span>Nasza kuchnia</span></div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80&auto=format&fit=crop" alt="Dania w restauracji" loading="lazy" />
+        <div class="gallery-overlay"><span>Świeże dania</span></div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1466978913421-dad2ebd01d17?w=800&q=80&auto=format&fit=crop" alt="Wnętrze bistro" loading="lazy" />
+        <div class="gallery-overlay"><span>Klimatyczne wnętrze</span></div>
+      </div>
+      <div class="gallery-item gi-wide">
+        <img src="https://images.unsplash.com/photo-1551024601-bec78aea704b?w=1000&q=80&auto=format&fit=crop" alt="Desery" loading="lazy" />
+        <div class="gallery-overlay"><span>Domowe desery</span></div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1534482421-64566f976cfa?w=800&q=80&auto=format&fit=crop" alt="Pasta" loading="lazy" />
+        <div class="gallery-overlay"><span>Makarony własne</span></div>
+      </div>
+      <div class="gallery-item">
+        <img src="https://images.unsplash.com/photo-1498654896293-37aacf113fd9?w=800&q=80&auto=format&fit=crop" alt="Dania główne" loading="lazy" />
+        <div class="gallery-overlay"><span>Dania główne</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────── O NAS ───────── -->
+  <section class="about" id="about">
+    <div class="container about-inner">
+      <div class="about-img-wrap fade-up">
+        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=900&q=80&auto=format&fit=crop" alt="Przytulne wnętrze Bistro Meluzyna" loading="lazy" />
+        <div class="about-img-accent"></div>
+      </div>
+      <div class="about-text fade-up">
+        <div class="section-label">O nas</div>
+        <h2 class="section-title">Miejsce,<br /><em>do którego się wraca</em></h2>
+        <p>Bistro Meluzyna to przytulne, rodzinne miejsce z domowym jedzeniem w samym sercu Rosnowa. Gotujemy z pasją i szacunkiem do tradycyjnych smaków – tak, jak gotowały nasze mamy i babcie.</p>
+        <p>Stawiamy na prostotę i jakość. Każde danie przygotowujemy ze świeżych składników, a nasze receptury tworzymy latami, poprawiając je z każdym kolejnym sezonem. Tutaj nie chodzi tylko o jedzenie – chodzi o chwilę zatrzymania się i prawdziwego smakowania.</p>
+        <div class="about-highlights">
+          <div class="ab-item"><strong>2015</strong><span>Rok otwarcia</span></div>
+          <div class="ab-item"><strong>95+</strong><span>Opinii Google</span></div>
+          <div class="ab-item"><strong>4.5★</strong><span>Średnia ocena</span></div>
+        </div>
+        <a href="tel:+48123456789" class="btn btn-gold" style="margin-top:2rem">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.81 19.79 19.79 0 01.02 2.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+          Zadzwoń i zarezerwuj stolik
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────── KONTAKT ───────── -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-label fade-up" style="color:var(--gold)">Kontakt</div>
+      <h2 class="section-title fade-up" style="color:#fff">Znajdź nas<br /><em>w Rosnowie</em></h2>
+      <div class="contact-inner">
+        <div class="contact-details fade-up">
+          <div class="contact-block">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div>
+              <h4>Adres</h4>
+              <p>Rosnowo 6B<br />76-020 Rosnowo</p>
+            </div>
+          </div>
+          <div class="contact-block">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.81 19.79 19.79 0 01.02 2.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            </div>
+            <div>
+              <h4>Telefon</h4>
+              <a href="tel:+48123456789" class="contact-tel">+48 123 456 789</a>
+            </div>
+          </div>
+          <div class="contact-block">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div>
+              <h4>Godziny otwarcia</h4>
+              <div class="hours-grid">
+                <span>Poniedziałek – Piątek</span><strong>11:00 – 21:00</strong>
+                <span>Sobota</span><strong>10:00 – 22:00</strong>
+                <span>Niedziela</span><strong>10:00 – 20:00</strong>
+              </div>
+            </div>
+          </div>
+          <a href="tel:+48123456789" class="btn btn-gold btn-full">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 8.81 19.79 19.79 0 01.02 2.18 2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            Zadzwoń teraz: +48 123 456 789
+          </a>
+        </div>
+        <div class="contact-map fade-up">
+          <iframe
+            src="https://maps.google.com/maps?q=Rosnowo+6B+Poland&t=&z=14&ie=UTF8&iwloc=&output=embed"
+            width="100%"
+            height="400"
+            frameborder="0"
+            style="border:0; border-radius:16px;"
+            allowfullscreen=""
+            loading="lazy"
+            title="Lokalizacja Bistro Meluzyna, Rosnowo"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ───────── FOOTER ───────── -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <a href="#hero" class="nav-logo">
+          <span class="logo-script">Bistro</span>
+          <span class="logo-main">Meluzyna</span>
+        </a>
+        <p>Wyjątkowe smaki w sercu Rosnowa.<br />Zapraszamy codziennie!</p>
+      </div>
+      <div class="footer-links">
+        <h5>Szybkie linki</h5>
+        <a href="#why">Dlaczego my</a>
+        <a href="#dishes">Dania</a>
+        <a href="#menu">Menu</a>
+        <a href="#opinions">Opinie</a>
+        <a href="#gallery">Galeria</a>
+        <a href="#contact">Kontakt</a>
+      </div>
+      <div class="footer-contact">
+        <h5>Kontakt</h5>
+        <p>Rosnowo 6B, 76-020 Rosnowo</p>
+        <a href="tel:+48123456789">+48 123 456 789</a>
+        <p>Pon–Pt: 11:00–21:00<br />Sob: 10:00–22:00 · Niedz: 10:00–20:00</p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 Bistro Meluzyna · Rosnowo · Wszelkie prawa zastrzeżone</p>
+    </div>
+  </footer>
+
+  <!-- Scroll to top -->
+  <button class="scroll-top" id="scrollTop" aria-label="Wróć na górę">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
